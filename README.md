@@ -45,8 +45,7 @@ This project provides a pipeline for running and analyzing cellular model simula
 
 ## **Workflow**
 1. **Running the Simulation**:
-   - First, parameters for the simulation are written and configured using `writeParams.py`.
-   - Then, the simulation is generated step-by-step using `timeStep.py`, which performs the core computations.
+   - First, the simulation is generated step-by-step using `timeStep.py`, which performs the core computations.
    - For multiple configurations, `CM_simulation.py` can run simulations over a broad range of parameter sets to explore different scenarios.
    
 2. **Converting Data**:

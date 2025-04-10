@@ -1,15 +1,14 @@
 # An Agent Based Model of Cancer
-# **Simulation Pipeline Overview**
 
 ## **Overview**
-This project provides a pipeline for running and analyzing cellular model simulations. The pipeline includes several modules that handle different parts of the process: converting simulation data to images, generating simulations, writing simulation parameters, running simulations over a range of parameters, and visualizing the results with graphs.
+This project provides a sort of pipeline for running and analyzing cellular model simulations. It includes several modules that handle different parts of the process: converting simulation data to images, generating simulations, writing simulation parameters, running simulations over a range of parameters, and visualizing the results with graphs.
 
 ## **Modules**
 
 ### 1. **`imageConverter.py`** – **Converting 2D Arrays to Images**
 - **Purpose**: This module provides functions to convert 2D arrays (typically simulation data representing cell states) into image format. The data can be visualized as images to better understand the simulation output at each time step.
 - **Key Functionality**: 
-    - Converts 2D arrays to image files (e.g., PNG, JPEG) for visualization.
+    - Converts 2D arrays to image files (PNG) for visualization.
     - Useful for visualizing the state of a simulation at a specific time point.
 - **Use Case**: This is primarily used for visualizing the spatial distribution of cells during the simulation.
 

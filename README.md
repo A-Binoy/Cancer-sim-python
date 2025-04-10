@@ -52,4 +52,4 @@ This project provides a sort of pipeline for running and analyzing cellular mode
    - Finally, `convert_to_graphs.py` takes the output from the simulation, processes it, and generates insightful graphs and charts that help in analyzing the trends and behaviors of the simulated system.
 
 ## **Conclusion**
-This project pipeline allows you to set up, run, and analyze complex cellular simulations. By breaking down the tasks into modules—parameter setup, simulation execution, image conversion, and graph generation—it provides an efficient and modular approach to running and visualizing simulations over different parameter sets. 
+This project allows you to set up, run, and analyze complex cellular simulations. By breaking down the tasks into modules—parameter setup, simulation execution, image conversion, and graph generation—it provides an efficient and modular approach to running and visualizing simulations over different parameter sets. 
